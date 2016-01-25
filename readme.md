@@ -11,5 +11,3 @@ simple payment method. Backend dashboard uses Polymer
 ### Tools
 - Gulp - browserify, babelify, viny-source, wathify 
 
-
-Copyright @2016, Jags Software Solution 
