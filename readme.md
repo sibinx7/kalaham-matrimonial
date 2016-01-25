@@ -23,11 +23,12 @@ simple payment method. Backend dashboard uses Polymer
 - Run  `npm install` 
 
 ##### Gulp Task
-- Gulp watch task added, run `gulp` or `gulp watch` command on terminal
+- Gulp watch task added, run `gulp` or `gulp watch` command on terminal.
+
 ##### Start Server
+-`rails s` , if use vagrant run `rails s -b 0.0.0.0`
 
-`rails s` , if use vagrant run `rails s -b 0.0.0.0`
-
+>
 Livereload added to gulp file, install livereload software and livereload google extension 
 
  
