@@ -31,5 +31,12 @@ simple payment method. Backend dashboard uses Polymer
 >
 Livereload added to gulp file, install livereload software and livereload google extension 
 
+
+
+
+## License
+
+Ruby on Rails is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+
  
  
