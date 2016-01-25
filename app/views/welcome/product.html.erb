@@ -1,0 +1,30 @@
+<div class="home">
+  <div class="row">
+    <div class="small-12 medium-4 large-3 columns">
+      <%= render "common/sidebar" %>
+    </div>
+    <div class="small-12 medium-8 large-9 columns">
+      <div class="prduct-page">
+        <div class="row">
+          <div class="small-12 medium-6 large-5 columns">
+            <div class="product-image">
+              <img src="http://placehold.it/480x640" alt="" class="thumbnail">
+            </div>
+          </div>
+          <div class="small-12 medium-6 large-7 columns">
+            <h3>Product <%= params[:product] %></h3>
+            <div class="callout">
+              VS Code uses js-beautify internally, bit it lacks the ability to modify the style you wish to use. This extension enables running js-beautify in VS Code, AND honouring any .jsbeautifyrc file in the open file's path tree to load your code styling. Run with F1 Beautify.
+
+This package includes hints when editing your .jsbeautifyrc. Only the first file found will be used. If the format is bad, the default js-beautify settings will be used, but a warning will be issued to let you know. Comments in your settings file are acceptable (they're removed before the file is parsed). The embedded schema for .jsbeautifyrc has also been published at JSON Schema Store which allows users of VSCode 0.10.3 to add it manually to their user or workspace settings:
+            </div>
+            <div class="input-group">
+              <input type="number">
+            </div>
+            <button class="button success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
