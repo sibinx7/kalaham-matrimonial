@@ -6,7 +6,7 @@ class ProductApis{
         name: "Product "+i,
         image: "http://placehold.it/340x400",
         price: (100+(i*2)),
-        urls: '#product'
+        urls: '/welcome/product/'+i
       })
     }
   }

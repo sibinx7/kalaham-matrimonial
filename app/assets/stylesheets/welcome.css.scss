@@ -16,3 +16,19 @@
   margin: 30px 0 20px;
   display: block;
 }
+
+.cart-element{
+  font-size: 20px;
+  position: relative;
+  span.cart-count{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: dodgerblue;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 4px;
+    display: block;
+    border-radius: 50%;
+  }
+}
