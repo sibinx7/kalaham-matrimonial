@@ -4,35 +4,28 @@
       <%= render "common/sidebar" %>
     </div>
     <div class="small-12 medium-8 large-9 columns">
-      <div class="products">
-        <div class="row">
-          <% (1..12).each_with_index do |product,index| %>
-            <div class="small-12 medium-4 large-3 columns">
-              <div class="each-product clearfix">
-                <img src="http://placehold.it/340x400" class="thumbnail">
-                <a href="<%= url_for(controller:'welcome', action:'product', product:product) %>">
-                  <h5>Product Title</h5>
-                </a> 
-                
-                <div class="success label float-right">$100</div>
+      <div id="product-section">
+        <!--<div class="products">
+          <div class="row">
+            <% (1..12).each_with_index do |product,index| %>
+              <div class="small-12 medium-4 large-3 columns">
+                <div class="each-product clearfix">
+                  <img src="http://placehold.it/340x400" class="thumbnail">
+                  <a href="">
+                    <h5>Product Title</h5>
+                  </a> 
+                  
+                  <div class="success label float-right">$100</div>
+                </div>
               </div>
-            </div>
-            <% end %>
-        </div>
+              <% end %>
+          </div>
+        </div>-->
       </div>
+      <hr>
       <!-- Pagination section-->
-      <div class="paginations">
-        <ul class="pagination text-center" role="navigation" aria-label="Pagination">
-          <li class="pagination-previous disabled">Previous</li>
-          <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-          <li><a href="#" aria-label="Page 2">2</a></li>
-          <li><a href="#" aria-label="Page 3">3</a></li>
-          <li><a href="#" aria-label="Page 4">4</a></li>
-          <li class="ellipsis"></li>
-          <li><a href="#" aria-label="Page 12">12</a></li>
-          <li><a href="#" aria-label="Page 13">13</a></li>
-          <li class="pagination-next"><a href="#" aria-label="Next page">Next</a></li>
-        </ul>
+      <div class="paginations" id="pagination">
+        
       </div>
       <!-- eof pagination -->
     </div>
