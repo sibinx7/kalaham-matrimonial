@@ -23,10 +23,13 @@
     "babel": "^6.3.26",
     "babel-core": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
     "babel-register": "^6.4.3",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-util": "^3.0.7",
     "gulp-watchify": "^0.5.0",
     "vinyl-source-stream": "^1.1.0"
