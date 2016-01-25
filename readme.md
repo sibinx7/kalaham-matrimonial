@@ -22,6 +22,8 @@ simple payment method. Backend dashboard uses Polymer
 - Install Node JS version 5.5.0 or Update it 
 - Run  `npm install` 
 
+##### Gulp Task
+- Gulp watch task added, run `gulp` or `gulp watch` command on terminal
 ##### Start Server
 
 `rails s` , if use vagrant run `rails s -b 0.0.0.0`
