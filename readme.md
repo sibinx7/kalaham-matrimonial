@@ -11,3 +11,22 @@ simple payment method. Backend dashboard uses Polymer
 ### Tools
 - Gulp - browserify, babelify, viny-source, wathify 
 
+### How to run 
+
+##### It is a Ruby On Rails Application
+- Choose ruby version as 2.1.5 (ruby 2.1.5p273)
+- Setup Postgres or use SQLite 
+- Run `bundle` command 
+
+##### React JS and other Javascript/node js setup 
+- Install Node JS version 5.5.0 or Update it 
+- Run  `npm install` 
+
+##### Start Server
+
+`rails s` , if use vagrant run `rails s -b 0.0.0.0`
+
+Livereload added to gulp file, install livereload software and livereload google extension 
+
+ 
+ 
