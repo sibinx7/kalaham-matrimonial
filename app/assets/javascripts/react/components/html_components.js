@@ -18,3 +18,4 @@ class ATagWithIcon extends React.Component{
     )
   }
 }
+export default ATagWithIcon;
