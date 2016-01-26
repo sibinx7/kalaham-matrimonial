@@ -1,17 +1,31 @@
 class ProductApis{
   constructor(){
+    this.manufacturesList = ["motorola","sony","lenovo"];
     this.productItems = [];
-    for(var i=0;i<12;i++){
+    for(var i=0;i<10;i++){
       this.productItems.push({
         name: "Product "+i,
         image: "http://placehold.it/340x400",
         price: (100+(i*2)),
-        urls: '/welcome/product/'+i
+        urls: '/welcome/product/'+i,
+        manufacture: (this.manufacturesList[i%3])
       })
     }
   }
-  getFakeProducts = () => {
-    return this.productItems
+  getFakeProducts = (manufacture = "") => {
+
+    if (manufacture.length == 0 || (this.manufacturesList.indexOf(manufacture)) == -1){
+      return this.productItems  
+    }else{
+      var filtered = [];
+      this.productItems.map((value)=>{
+        if(value.manufacture == manufacture){
+          filtered.push(value)
+        }
+      });
+      return filtered
+    }
+    
   };
 }
 export default ProductApis;
