@@ -41,3 +41,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # UI Gems
 gem 'foundation-rails','6.1.1.3'
+
+gem 'devise'

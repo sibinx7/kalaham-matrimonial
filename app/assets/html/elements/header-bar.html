@@ -1,0 +1,25 @@
+<dom-module id="header-bar">
+  <template>
+    <style>
+      .header{
+        background: orange;
+        height: 60px; 
+        border-bottom: 1px solid #ddd; 
+      }
+    </style>
+    <div class="header">
+      This is {{title}}
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'header-bar',
+      properties:{
+        title:{
+          type:String,
+          value: "Header Element" 
+        }
+      }
+    })
+  </script>
+</dom-module>

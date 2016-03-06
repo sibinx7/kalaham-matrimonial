@@ -1,0 +1,30 @@
+{
+  "name": "react-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sibinx7/react-with-rails",
+  "authors": [
+    "Sibin Xavier <sibinx7@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#~0.4.2",
+    "polymer": "Polymer/polymer#~1.3.1",
+    "core-elements": "Polymer/core-elements#~0.5.6",
+    "polymer-ui-elements": "Polymer/polymer-ui-elements#~0.3.0",
+    "polymer-ui-accordion": "Polymer/polymer-ui-accordion#~0.3.0",
+    "jquery": "~2.2.1"
+  }
+}

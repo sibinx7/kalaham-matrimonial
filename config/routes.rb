@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'admin/dashboard'
+
+  get 'admin/items'
+
+  get 'admin/settings'
+
   get 'welcome/index'
 
   get 'welcome/about'
@@ -60,4 +66,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  
+  namespace :admin do 
+    get 'admin/dashboard'
+  end 
 end
