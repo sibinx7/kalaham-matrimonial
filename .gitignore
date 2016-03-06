@@ -21,3 +21,8 @@ node_modules
 config/secrets.yml 
 app/assets/javascripts/secrets
 .jsbeautifyrc
+
+# Exclude bower_modules 
+
+vendor/assets/components 
+/vendor/assets/components
