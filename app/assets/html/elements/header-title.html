@@ -1,0 +1,29 @@
+<dom-module id="heading-title">
+  
+  <template>
+    <style>
+      h2{
+        font-size: 22px;
+        text-transform: uppercase;
+        
+      }
+    </style>
+    <label on-mouseover="mouseOver">Title</label>
+    <content></content>
+  </template>
+  <script>
+    Polymer({
+      is: 'heading-title',
+      listeners: {
+        'click': 'handleClick',
+      },
+      handleClick: function(){
+        console.log("Clicking on Title")
+      },
+      mouseOver: function(){
+        console.log("Mouse Over")
+      }
+    })
+  </script>
+  
+</dom-module>

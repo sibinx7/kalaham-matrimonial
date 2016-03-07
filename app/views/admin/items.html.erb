@@ -1,15 +1,23 @@
 
 <link rel="import" href="<%= asset_path 'iron-form/iron-form.html' %>"/>    
 <link rel="import" href="<%= asset_path 'paper-input/paper-input.html' %>"/>    
+<link rel="import" href="<%= asset_path 'paper-checkbox/paper-checkbox.html' %>"/> 
 <link rel="import" href="<%= asset_path 'paper-button/paper-button.html' %>"/>
 <link rel="import" href="<%= asset_path 'iron-image/iron-image.html' %>"/>
 <link rel="import" href="<%= asset_path 'google-map/google-map.html' %>"/>
 <link rel="import" href="<%= asset_path 'google-youtube/google-youtube.html' %>"/>
 <link rel="import" href="<%= asset_path 'elements/seperator-bar.html' %>"/> 
-
+<link rel="import" href="<%= asset_path 'elements/header-title.html' %>"/> 
 
 <div class="row">
   <div class="small-12 medium-12 large-12 columns">
+    <heading-title>
+      <h2>Form Elements</h2> 
+      <div class="float-right">
+        <paper-checkbox>Done</paper-checkbox>
+      </div> 
+    </heading-title>
+    
     <form is="iron-form" id="form" method="post" action="#">
       <paper-input name="name" label="name"></paper-input>
       <paper-button raised onclick="submitForm(event)">Submit</paper-button>
@@ -45,9 +53,10 @@
       video-id="uVdV-lxRPFo"
       height="360px"
       width="640px"
+      fluid= true 
       rel="0"
       start="5"
-      autoplay="1"
+      autoplay="0"
       id="youtube">
     </google-youtube>
   </div>
