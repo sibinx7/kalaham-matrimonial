@@ -1,6 +1,13 @@
+
 <link rel="import" href="<%= asset_path 'iron-form/iron-form.html' %>"/>    
 <link rel="import" href="<%= asset_path 'paper-input/paper-input.html' %>"/>    
 <link rel="import" href="<%= asset_path 'paper-button/paper-button.html' %>"/>
+<link rel="import" href="<%= asset_path 'iron-image/iron-image.html' %>"/>
+<link rel="import" href="<%= asset_path 'google-map/google-map.html' %>"/>
+
+<link rel="import" href="<%= asset_path 'elements/seperator-bar.html' %>"/> 
+
+
 <div class="row">
   <div class="small-12 medium-12 large-12 columns">
     <form is="iron-form" id="form" method="post" action="#">
@@ -8,7 +15,29 @@
       <paper-button raised onclick="submitForm(event)">Submit</paper-button>
     </form>
   </div>
-</div> 
+</div>
+<seperator-bar></seperator-bar>
+<div class="row">
+  <div class="small-12 large-12 columns">
+    <iron-image 
+      src="http://www.newschool.edu/uploadedImages/Parsons/Profiles/jamer_hunt_profile.jpg",
+      error= true 
+      fade = true 
+      preload = true 
+      loading = true 
+    ></iron-image>
+  </div>
+</div>
+<seperator-bar></seperator-bar>
+<div class="row">
+  <div class="small-12 medium-12 large-12 columns">
+    <google-map latitude="37.77493" longitude="-122.41942" fit-to-markers>
+      <google-map-marker latitude="37.779" longitude="-122.3892"
+        draggable="true" title="Go Giants!"></google-map-marker>
+      <google-map-marker latitude="37.777" longitude="-122.38911"></google-map-marker>
+  </google-map>
+  </div>
+</div>
 
 
 <script type="text/javascript">
