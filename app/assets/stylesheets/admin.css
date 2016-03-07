@@ -1,6 +1,6 @@
 /**
 *= require foundation_and_overrides
 *= require foundation-icons
-* = require_tree admin
+*= require_tree ./admin
 *
 */

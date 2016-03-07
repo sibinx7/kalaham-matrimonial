@@ -69,5 +69,6 @@ Rails.application.routes.draw do
   
   namespace :admin do 
     get 'admin/dashboard'
+    get 'admin/items'
   end 
 end
